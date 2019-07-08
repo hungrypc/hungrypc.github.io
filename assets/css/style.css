@@ -23,18 +23,35 @@ body {
 }
 
 .top {
+  margin: 0px;
+  display: contents;
   font-size: 2rem;
   font-weight: 300;
+  width: 300px;
+}
+
+.top p {
+  width: 300px;
+  margin: 0 !important;
+  -webkit-margin-after: 0 !important;
+          margin-block-end: 0 !important;
+  -webkit-margin-before: 0 !important;
+          margin-block-start: 0 !important;
 }
 
 #start-directory {
+  top: 153px;
+  display: inline-block;
   margin-top: 65px;
   height: 400px;
+  width: 550px;
+  margin-right: 0;
 }
 
 .about {
   display: block;
   text-align: left;
+  top: 153px;
   position: absolute;
   font-size: 5rem;
   font-weight: 900;
@@ -127,9 +144,37 @@ body {
   width: 100%;
 }
 
+#content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 630px;
+  width: 670px;
+  float: right;
+  border: 1px solid black;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.slide {
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+
 #start-icons {
+  display: inline-block;
   margin-top: 60px;
   font-size: 1.5rem;
+  width: 500px;
 }
 
 .fas {
