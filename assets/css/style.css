@@ -41,7 +41,7 @@ body {
 
 #start-directory {
   top: 153px;
-  display: inline-block;
+  float: left;
   margin-top: 65px;
   height: 400px;
   width: 550px;
@@ -145,16 +145,13 @@ body {
 }
 
 #content-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   height: 630px;
-  width: 670px;
-  float: right;
+  min-width: 660px;
   border: 1px solid black;
   overflow-y: scroll;
   -ms-scroll-snap-type: y mandatory;
@@ -168,10 +165,16 @@ body {
   height: 100%;
   scroll-behavior: smooth;
   scroll-snap-align: start;
+  text-align: center;
+}
+
+.slides > div:target {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 #start-icons {
-  display: inline-block;
+  float: left;
   margin-top: 60px;
   font-size: 1.5rem;
   width: 500px;
