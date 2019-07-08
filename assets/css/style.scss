@@ -1,3 +1,146 @@
-
+html {
+    box-sizing: border-box;
+    height: 100vh;
+  }
 // font-family: 'DM Serif Display', serif;
 // font-family: 'Lato', sans-serif;
+// font-family: 'Roboto Mono', monospace;
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background:#fff;
+    color:#000;
+  }
+
+#start {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.wrapper {
+    padding: 30px;
+    // padding-left: 50px;
+}
+
+.top {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#start-directory {
+    margin-top: 65px;
+    height: 400px;
+}
+
+.about{
+    display: block;
+    text-align: left; 
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 900;
+    color: gray;
+}
+
+.about:before{
+    content: attr(data-text);
+    color: black;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.about:hover:before{
+    width: 100%;
+}
+
+.projects{
+    display: block;
+    text-align: left; 
+    top: 250px;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 900;
+    color: gray;
+}
+
+.projects:before{
+    content: attr(data-text);
+    color: black;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.projects:hover:before{
+    width: 100%;
+}
+  
+.employment{
+    display: block;
+    text-align: left; 
+    top: 352px;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 900;
+    color: gray;
+}
+
+.employment:before{
+    content: attr(data-text);
+    color: black;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.employment:hover:before{
+    width: 100%;
+}
+
+.education{
+    display: block;
+    text-align: left; 
+    top: 458px;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 900;
+    color: gray;
+}
+
+.education:before{
+    content: attr(data-text);
+    color: black;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.education:hover:before{
+    width: 100%;
+}
+
+#start-icons {
+    margin-top: 60px;
+    font-size: 1.5rem;
+}
+
+.fas {
+    margin: 12px;
+}
+
+.fab {
+    margin: 10px
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
