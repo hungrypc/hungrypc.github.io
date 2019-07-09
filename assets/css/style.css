@@ -6,6 +6,7 @@ html {
 
 * {
   font-family: 'Lato', sans-serif;
+  text-align: left;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
   top: 153px;
   float: left;
   margin-top: 65px;
-  height: 400px;
+  height: 450px;
   width: 550px;
   margin-right: 0;
 }
@@ -151,11 +152,10 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 630px;
-  min-width: 660px;
-  border: 1px solid black;
+  min-width: 650px;
+  max-width: 650px;
+  margin-left: 10px;
   overflow-y: scroll;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
 }
 
 .slide {
@@ -163,21 +163,17 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   height: 100%;
+  padding: 40px 20px 40px 20px;
   scroll-behavior: smooth;
-  scroll-snap-align: start;
   text-align: center;
-}
-
-.slides > div:target {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  font-weight: 100;
 }
 
 #start-icons {
   float: left;
-  margin-top: 60px;
+  position: absolute;
   font-size: 1.5rem;
-  width: 500px;
+  width: 550px;
 }
 
 .fas {
