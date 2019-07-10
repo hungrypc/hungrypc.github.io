@@ -173,6 +173,30 @@ body {
   font-weight: 900;
 }
 
+.slide div {
+  width: 33%;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.info {
+  font-style: italic;
+  text-align: left;
+  float: left;
+}
+
+.location {
+  font-style: italic;
+  text-align: center;
+}
+
+.year {
+  font-style: italic;
+  text-align: right;
+  float: right;
+}
+
 #start-icons {
   float: left;
   position: absolute;
