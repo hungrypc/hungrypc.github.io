@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    console.log('jquery is brought in')
-
     $('a[href*="#"]').on('click', function(e) {
         e.preventDefault()
 
@@ -13,16 +11,5 @@ $(document).ready(function () {
           'linear'
         )
       })
-
-      $('#content-box').scroll(function() {
-            wS = $(this).scrollTop();
-        // console.log(this)
-        if (wS > 65){
-           console.log('scrolled to projects')
-        } 
-        // else {
-        //    $('h1').removeClass('view')
-        // }
-     });
 
 })
