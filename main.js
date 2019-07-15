@@ -7,8 +7,8 @@ $(document).ready(function () {
           {
             scrollTop: $($(this).attr('href')).offset().top - $('#content-box').offset().top + $('#content-box').scrollTop()
           },
-          300,
-          'linear'
+          1000,
+          'easeInOutExpo'
         )
       })
 
