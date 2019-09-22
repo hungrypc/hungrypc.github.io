@@ -16,66 +16,104 @@ body {
 //////////////////////// DIRECTORY ////////////////////////
 
 #start {
-    padding-left: 30px;
-    padding-top: 10px;
+    // padding-left: 30px;
+    // padding-top: 10px;
+    display: block;
+    width: 70%;
+    height: 100%;
+    margin: auto;
 }
 
 .wrapper {
-    padding: 30px;
+    // padding: 30px;
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .top {
-    margin: 0px;
-    display: contents;
-    font-size: 2rem;
-    font-weight: 300;
-    width: 300px;
+    display: block;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 1.7%;
 }
 
-.top p {
-    width: 300px;
-    margin: 0 !important;
-    margin-block-end: 0 !important;
-    margin-block-start: 0 !important;
+#profile {
+    display: block;
+    height: 100%;
+    width: 98%;
+    margin-left: 2%;
+}
+
+#profile-picture {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    // border-radius: 50%;
+    margin-top: 4.8%;
+}
+
+#profile-picture img {
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+#profile-intro {
+    display: inline-block;
+    margin-left: 7.1%;
+    width: 75%;
+    height: 200px;
+    vertical-align: bottom;
+}
+
+#profile-intro h1 {
+    vertical-align: top;
+    font-weight: 500;
+}
+
+#profile-intro p {
+    font-weight: 100;
 }
 
 #start-directory {
-    top: 153px;
-    float: left;
-    height: 450px;
-    width: 450px;
-    margin-right: 0;
+    display: inline-block;
+    height: 68%;
+    width: 39%;
+    vertical-align: top;
 }
 
-.about{
+#profile-about {
     display: block;
-    text-align: left; 
-    top: 160px;
-    position: absolute;
-    font-size: 4rem;
-    font-weight: 900;
-    color: gray;
-}
-
-.about:before{
-    content: attr(data-text);
-    color: black;
-    position: absolute;
-    width: 0;
-    overflow: hidden;
-    transition: 0.9s;
-}
-
-.about:hover:before{
     width: 100%;
+    height: 50%;
+}
+
+#about-container {
+    display: block;
+    width: 95%;
+    height: 100%;
+    // background-color: beige;
+    margin: auto;
+    padding: 4% 3%;
+}
+
+#about-container ul li {
+    font-weight: 100;
 }
 
 .projects{
     display: block;
-    text-align: left; 
-    top: 250px;
+    text-align: left;
+    margin-left: 2%; 
+    bottom: 22%;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: gray;
 }
@@ -96,9 +134,10 @@ body {
 .employment{
     display: block;
     text-align: left; 
-    top: 340px;
+    margin-left: 2%; 
+    bottom: 14%;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: gray;
 }
@@ -119,9 +158,10 @@ body {
 .education{
     display: block;
     text-align: left; 
-    top: 435px;
+    margin-left: 2%; 
+    bottom: 6%;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: gray;
 }
@@ -143,22 +183,24 @@ body {
 
 #content-box {
     display: inline-block;
-    flex-direction: column;
-    height: 631px;
-    min-width: 670px;
-    max-width: 670px;
-    margin-left: 10px;
-    // border: 1px solid black;
+    vertical-align: top;
+    height: 68%;
+    width: 60%;
+    margin-left: 0.7%;
     overflow-y: scroll;
+}
+
+#projects-content {
+    height: 155%;
 }
 
 .slide {
     width: 100%;
     flex-shrink: 0;
     height: 100%;
-    padding: 40px 20px 40px 20px;
+    padding: 2.1% 2%;
     scroll-behavior: smooth;
-    text-align: center;
+    text-align: left;
     font-weight: 100;
 }
 
@@ -174,19 +216,27 @@ body {
     font-weight: 400;
 }
 
+.slide h5 {
+    font-weight: 700;
+}
+
+.slide a {
+    margin-right: 10%;
+}
+
 .info {
-    font-style: italic;
+    // font-style: italic;
     text-align: left;
     float: left;
 }
 
 .location {
-    font-style: italic;
+    // font-style: italic;
     text-align: center;
 }
 
 .year {
-    font-style: italic;
+    // font-style: italic;
     text-align: right;
     float: right;
 }
@@ -213,11 +263,11 @@ body {
 //////////////////////// FOOTER ////////////////////////
 
 #start-icons {
-    float: left;
-    position: absolute;
+    display: inline-block;
+    height: 20%;
     font-size: 1.5rem;
-    width: 450px;
-    margin-top: 490px;
+    width: 100%;
+    // vertical-align: top;
 }
 
 #start-icons .fas {
