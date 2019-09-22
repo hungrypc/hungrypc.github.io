@@ -65,7 +65,8 @@ body {
 
 #profile-intro {
   display: inline-block;
-  margin-left: 7.1%;
+  margin-top: 4.8%;
+  float: right;
   width: 75%;
   height: 200px;
   vertical-align: bottom;
