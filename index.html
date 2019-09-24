@@ -7,21 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- FONT AWESOME (ICONS) -->
     <script src="https://kit.fontawesome.com/57542fd59d.js"></script>
-
     <link rel="stylesheet" href="/assets/css/style.css">
-
 
 </head>
 
 <body>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -29,60 +20,60 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
         integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <script src="/main.js"></script>
 
     <div class="wrapper">
         <div id="start">
-
             <div class="top">
                 <div id="profile">
                     <div id="profile-picture">
                         <img src="assets/images/prof_pic.JPG">
                     </div>
                     <div id="profile-intro">
-                        <h1>Hi, I'm Phil Chan</h1>
+                        <div class="hi">Hi, I'm Phil Chan</div>
                         <p>Junior Full Stack Web Developer with an interest for design and creative problem solving.
                             Detail-driven, efficieny-oriented, and a dedicated life-long learner who is always eager to
                             discover new things.</p>
-                        <h4>contact</h4>
-                        <p class="ab"><i class="far fa-envelope"></i> &nbsp <a
-                                href="mailto:philipchanhk626@gmail.com">philipchanhk626@gmail.com</a></p>
-                        <p class="ab"><i class="fab fa-github"></i> &nbsp <a
-                                href="https://github.com/hungrypc">github/hungrypc</a></p>
-                        <p class="ab"><i class="fas fa-phone"></i> &nbsp (604) 728 6850</p>
-                        <p class="ab"><i class="fab fa-linkedin-in"></i> &nbsp <a
-                                href="https://www.linkedin.com/in/philip-chan-aa859b143/">linkedin</a></p>
                     </div>
-                </div>                
+                    <div class="contact">
+                        <div class="contact-details">
+                            <p class="ab"><i class="far fa-envelope"></i> &nbsp <a
+                                    href="mailto:philipchanhk626@gmail.com">philipchanhk626@gmail.com</a></p>
+                            <p class="ab"><i class="fab fa-github"></i> &nbsp <a
+                                    href="https://github.com/hungrypc">github/hungrypc</a></p>
+                            <p class="ab"><i class="fas fa-phone"></i> &nbsp (604) 728 6850</p>
+                            <p class="ab"><i class="fab fa-linkedin-in"></i> &nbsp <a
+                                    href="https://www.linkedin.com/in/philip-chan-aa859b143/">linkedin</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- <hr class="fancy-line"></hr> -->
-
 
             <div id="start-directory">
                 <div id="profile-about">
                     <div id="about-container">
-                        <h5>Languages & Frameworks</h5>
+                        <div>Languages & Frameworks</div>
                         <ul>
                             <li>JavaScript, jQuery, Node, AJAX, Express, React</li>
                             <li>HTML5, CSS3, SASS, Bootstrap</li>
                             <li>Ruby, Rails</li>
                         </ul>
-                        <h5>Systems & Databases</h5>
+                        <div>Systems & Databases</div>
                         <ul>
                             <li>Git, Github</li>
                             <li>MongoDB, PostgreSQL, Knex</li>
                         </ul>
-                        <h5>Additional Skills</h5>
+                        <div>Additional Skills</div>
                         <ul>
                             <li>Adobe: Photoshop, Illustrator, Lightroom</li>
                             <li>Sketch, Final Cut Pro X</li>
                         </ul>
                     </div>
                 </div>
-                <!-- <a href="#about-content"><h1 class="about sd" data-text="ABOUT">ABOUT</h1></a>  -->
+
                 <a href="#projects-content">
                     <h1 class="projects sd" data-text="PROJECTS">PROJECTS</h1>
                 </a>
@@ -96,46 +87,19 @@
 
 
             <div id="content-box">
-                <!-- <div class="slide" id="about-content">
-                        <h3>about me</h3>
-                        <p>Junior Full Stack Web Developer with an interest for design and creative problem solving. 
-                            Detail-driven, efficieny-oriented, and a dedicated life-long learner who is always eager to discover new things.</p>
-                        <h3>contact</h3>
-                        <p class="ab"><i class="far fa-envelope"></i> &nbsp <a href="mailto:philipchanhk626@gmail.com">philipchanhk626@gmail.com</a></p> <p class="ab"><i class="fab fa-github"></i> &nbsp <a href="https://github.com/hungrypc">github/hungrypc</a></p> 
-                        <p class="ab"><i class="fas fa-phone"></i> &nbsp (604) 728 6850</p> <p class="ab"><i class="fab fa-linkedin-in"></i> &nbsp <a href="https://www.linkedin.com/in/philip-chan-aa859b143/">linkedin</a></p> 
-                        <h3 class="margin">skills</h3>
-                        <h5>languages & frameworks</h5>
-                            <ul>
-                                <li>JavaScript, jQuery, Node, AJAX, Express, React</li>
-                                <li>HTML5, CSS3, SASS, Bootstrap</li>
-                                <li>Ruby, Rails</li>
-                            </ul>
-                        <h5>systems & databases</h5>
-                            <ul>
-                                <li>Git, Github</li>
-                                <li>MongoDB, PostgreSQL, Knex</li>
-                            </ul>
-                        <h5>additional skills</h5>
-                            <ul>
-                                <li>Adobe Photoshop, Adobe Illustrator, Adobe Lightroom</li>
-                                <li>Sketch, Final Cut Pro X</li>
-                            </ul>
-                    </div> -->
                 <div class="slide" id="projects-content">
                     <h3>PROJECTS</h3>
-                    <br>
                     <h5>Wander</h5>
-                    <p><strong><i>React, Rails, GoogleMaps API </i></strong><br/>
-                        A trip planning app that allows users to collaborate when creating itineries. Users are also able to split the trip into separate days with specific itinerary items where each item is displayed on the map.</p>
+                    <p><strong><i>React, Rails, GoogleMaps API </i></strong><br />
+                        A trip planning app that allows users to collaborate when creating itineries. Users are also
+                        able to split the trip into separate days with specific itinerary items where each item is
+                        displayed on the map.</p>
                     <a href="https://github.com/hungrypc/tripper" target="_blank">view on github</a>
-                    <br>
-                    <br>
                     <h5>Chattyapp</h5>
-                    <p><strong><i>React, Websockets</i></strong><br/>
-                        A small instant messaging application. The application contains all basic functions of a chatroom: creating a unique username, joining chatrooms, and converse with other users.</p>
+                    <p><strong><i>React, Websockets</i></strong><br />
+                        A small instant messaging application. The application contains all basic functions of a
+                        chatroom: creating a unique username, joining chatrooms, and converse with other users.</p>
                     <a href="https://github.com/hungrypc/chattyapp" target="_blank">view on github</a>
-                    <br>
-                    <br>
                     <h5>Schoodle</h5>
                     <p><strong><i>Node.js, Express, EJS, jQuery, AJAX, HTML, Sass, Bootstrap, PostgresSQL,
                                 Knex</i></strong><br />
@@ -143,23 +107,21 @@
                         participants with a randomly generated event URL.
                         it is a group midterm project where I was mainly responsible for front-end work but contributed
                         to the back-end as well</p>
-                    <a href="https://github.com/yanlinchengrui/schoodle_skeleton" target="_blank">view on github</a> <a href="https://skooodle.herokuapp.com" target="_blank">view on heroku</a>
-                    <br>
-                    <br>
+                    <a href="https://github.com/yanlinchengrui/schoodle_skeleton" target="_blank">view on github</a> <a
+                        href="https://skooodle.herokuapp.com" target="_blank">view on heroku</a>
                     <h5>Tweeter</h5>
                     <p><strong><i>Node.js, Express, JavaScript, jQuery, AJAX, MongoDB, HTML, CSS</i></strong><br />
                         Tweeter is a simple, single-page Twitter clone. Built upon to implement newly learned skills</p>
                     <a href="https://github.com/hungrypc/tweeter" target="_blank">view on github</a>
-                    <br>
-                    <br>
                     <h5>TinyApp</h5>
                     <p><strong><i>Node.js, Express, HTML, CSS</i></strong><br />
-                        A simple URL-shortening web application. First week-long project at Lighthouse Labs. Project necessitated a thorough understanding of how HTTP works, templating, and the value of modular code.</p>
+                        A simple URL-shortening web application. First week-long project at Lighthouse Labs. Project
+                        necessitated a thorough understanding of how HTTP works, templating, and the value of modular
+                        code.</p>
                     <a href="https://github.com/hungrypc/Tiny-App" target="_blank">view on github</a>
                 </div>
                 <div class="slide" id="employment-content">
                     <h3>EMPLOYMENT</h3>
-                    <br>
                     <h5>Sales Associate</h5>
                     <div class="info">Ingledew's Shoes</div>
                     <div class="location">Vancouver, BC</div>
@@ -178,9 +140,8 @@
                         <li>Provided service to customer inquiry and handled paper filing</li>
                         <li>Utilized microsoft word and excel to implement business solutions</li>
                     </ul>
-                    <br>
+
                     <h3>OTHER WORK EXP</h3>
-                    <br>
                     <h5>Volunteer</h5>
                     <div class="info">Vancouver Start-up Week</div>
                     <div class="location">Vancouver, BC</div>
@@ -193,25 +154,21 @@
                 </div>
                 <div class="slide" id="education-content">
                     <h3>EDUCATION</h3>
-                    <br>
                     <h5>Lighthouse Labs</h5>
-                    <div class="info">Web Development Diploma</div>
-                    <div class="year">August 2019</div>
-                    <br>
-                    <p>A 600 hour 10 week full-stack bootcamp covering topics such as JavaScript, React, Node.js MongoDB, PostgreSQL, Ruby, Ruby on Rails, jQuery, HTML, CSS, and SASS, computer science, and software architecture.</p>
+                    <div class="ed-info">Web Development Diploma</div>
+                    <div class="ed-year">August 2019</div>
+                    <p>A 600 hour 10 week full-stack bootcamp covering topics such as JavaScript, React, Node.js
+                        MongoDB, PostgreSQL, Ruby, Ruby on Rails, jQuery, HTML, CSS, and SASS, computer science, and
+                        software architecture.</p>
 
-                    <br>
                     <h5>University of British Columbia</h5>
-                    <div class="info">Bachelor of Arts</div>
-                    <div class="year">2012 - 2018</div>
-                    <br>
+                    <div class="ed-info">Bachelor of Arts</div>
+                    <div class="ed-year">2012 - 2018</div>
                     <p>Psychology</p>
 
-                    <br>
                     <h5>The Chinese University of Hong Kong</h5>
-                    <div class="info">Summer Exchange</div>
-                    <div class="year">May 2015 - Aug 2015</div>
-                    <br>
+                    <div class="ed-info">Summer Exchange</div>
+                    <div class="ed-year">May 2015 - Aug 2015</div>
                     <p>International Business</p>
 
                 </div>
