@@ -12,6 +12,10 @@ body {
     color:#000;
 }
 
+#about-container ul li {
+    white-space: normal;
+}
+
 ///////////////////////////////////////// PHONE /////////////////////////////////////////
 
 @media only screen and (max-width: 600px) {
@@ -94,7 +98,7 @@ body {
     .ab {
         display: block;
         width: 200px;
-        margin: 1% auto;;
+        margin: 1% auto;
     }
     
     .ab a {
@@ -300,7 +304,7 @@ body {
     }
     
     #start {
-        width: 600px;
+        width: 590px;
         height: 100%;
         margin: auto;
     }
@@ -339,7 +343,7 @@ body {
         vertical-align: top;
         width: 70%;
         height: 150px;
-        margin: 4.8% auto 0 auto;
+        margin: 4% auto 0 auto;
     }
     
     .hi {
@@ -409,7 +413,7 @@ body {
 
     #about-container ul {
         margin: 1% 0;
-        padding-inline-start: 7%;
+        padding-inline-start: 5%;
     }
     
     #about-container ul li {
@@ -622,7 +626,7 @@ body {
         vertical-align: top;
         width: 70%;
         // height: 180px;
-        margin: 4.8% auto 2% auto;
+        margin: 4.8% auto 1% auto;
     }
     
     .hi {
@@ -694,7 +698,7 @@ body {
 
     #about-container ul {
         margin: 1% 0;
-        padding-inline-start: 7%;
+        padding-inline-start: 5%;
     }
     
     #about-container ul li {
@@ -1135,7 +1139,7 @@ body {
 
     .slide-block ul {
         margin: 4% 0 4% 0;
-        padding-inline-start: 7%;
+        padding-inline-start: 5%;
     }
 
     .slide-block ul li {
