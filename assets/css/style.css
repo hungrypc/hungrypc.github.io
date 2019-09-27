@@ -196,7 +196,7 @@ body {
     margin: 2% auto 0 0;
   }
   .slide-block ul {
-    margin: 4% 0 4% 0;
+    margin: 2% 0 4% 0;
     -webkit-padding-start: 7%;
             padding-inline-start: 7%;
   }
@@ -452,7 +452,7 @@ body {
     margin: 2% auto 0 0;
   }
   .slide-block ul {
-    margin: 4% 0 4% 0;
+    margin: 2% 0 4% 0;
     -webkit-padding-start: 7%;
             padding-inline-start: 7%;
   }
@@ -699,7 +699,7 @@ body {
     margin: 2% auto 0 0;
   }
   .slide-block ul {
-    margin: 4% 0 4% 0;
+    margin: 2% 0 4% 0;
     -webkit-padding-start: 7%;
             padding-inline-start: 7%;
   }
@@ -991,7 +991,7 @@ body {
     margin: 2% auto 0 0;
   }
   .slide-block ul {
-    margin: 4% 0 4% 0;
+    margin: 2% 0 4% 0;
     -webkit-padding-start: 5%;
             padding-inline-start: 5%;
   }
@@ -1045,7 +1045,6 @@ body {
   }
   #education-content p {
     display: block;
-    margin-top: 30px;
   }
   #education-content {
     height: 95%;
