@@ -10,17 +10,11 @@ html {
 body {
     background:#fff;
     color:#000;
-  }
+}
 
-//////////////////////// DIRECTORY ////////////////////////
+///////////////////////////////////////// PHONE /////////////////////////////////////////
 
-
-
-
-//////////////////////// RESPONSIVE ////////////////////////
-
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
     * {
         overflow: visible;
     }
@@ -30,328 +24,30 @@ body {
     }
     
     #start {
-        display: block;
-        width: 97%;
-        height: 100%;
-        margin: auto;
-    }
-
-    //////////////////////// TOP ////////////////////////
-
-    .top {
-        display: block;
-        width: 100%;
-        // height: 30%;
-        // margin-bottom: 1.7%;
-    }
-    
-    #profile {
-        display: block;
-        // height: 300px;
-        width: 100%;
-    }
-    
-    #profile-picture {
-        display: inline-block;
-        vertical-align: top;
-        width: 120px;
-        height: 120px;
-        background-color: beige;
-        // border-radius: 50%;
-        margin-top: 4.8%;
-    }
-    
-    #profile-picture img {
-        object-fit: contain;
-        height: inherit;
-        width: auto;
-        display: block;
-    }
-    
-    #profile-intro {
-        // display: inline-block;
-        margin-top: 4.8%;
-        float: right;
-        width: 62%;
-        height: 130px;
-        vertical-align: top;
-    }
-    
-    .hi {
-        vertical-align: top;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    
-    #profile-intro p {
-        margin: 2% 0;
-        font-size: 0.8rem;
-        font-weight: 100;
-    }
-
-    .contact {
-        display: block;
-        text-align: center;
-        // padding: 3%;
-        margin: 5% 0;
-    }
-
-    .contact h4 {
-        display: none;
-    }
-
-    .contact-details {
-        font-size: 0.8rem;
-        font-weight: 100;
-        text-align: left;
-    }
-      
-    .ab {
-        display: inline-block;
-        width: 180px;
-        margin: 0;
-    }
-    
-    .ab a {
-        color: black;
-    }
-
-    //////////////////////// START ////////////////////////
-    
-    #start-directory {
-        display: block;
-        // height: 68%;
-        width: 100%;
-        // vertical-align: top;
-    }
-    
-    #profile-about {
-        display: block;
-        width: 100%;
-        height: 50%;
-    }
-    
-    #about-container {
-        display: block;
+        display: flexbox;
         width: 95%;
         height: 100%;
-        // background-color: beige;
-        margin: auto;
-        // padding: 4% 3%;
-    }
-
-    #about-container div {
-        font-size: 0.9rem;
-        margin: 2% 0;
-    }
-
-    #about-container ul {
-        margin: 1% 0;
-    }
-    
-    #about-container ul li {
-        font-weight: 100;
-        font-size: 0.8rem;
-    }
-    
-    .projects{
-        display: none;
-        text-align: left;
-        margin-left: 2%; 
-        bottom: 22%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-      
-    .employment{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 14%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    .education{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 6%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    //////////////////////// CONTENT ////////////////////////
-    
-    #content-box {
-        display: inline-block;
-        vertical-align: top;
-        // height: 68%;
-        width: 100%;
-        // margin-left: 0.7%;
-        // overflow-y: scroll;
-    }
-    
-    #projects-content {
-        height: 155%;
-    }
-    
-    .slide {
-        width: 100%;
-        flex-shrink: 0;
-        height: 100%;
-        padding: 2.1% 2%;
-        scroll-behavior: smooth;
-        text-align: left;
-        font-weight: 100;
-    }
-    
-    .slide h3 {
-        font-weight: 900;
-        font-size: 1.2rem;
-    }
-    
-    // .slide div {
-    //     width: 33%;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     font-size: 0.8rem;
-    //     font-weight: 400;
-    // }
-    
-    .slide h5 {
-        font-weight: 700;
-        font-size: 1rem;
-        margin: 6% 0 2% 0;
-    }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 0.8rem;
-        margin: 4% 0 1% 0;
-    }
-    
-    .slide a {
-        margin-right: 10%;
-        font-size: 0.8rem;
-        // margin-bottom: 5%;
-    }
-
-    .slide ul {
-        margin: 4% 0 4% 0;
-    }
-
-    .slide ul li {
-        font-size: 0.8rem;
-    }
-    
-    .info {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-    
-    .location {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: center;
-    }
-    
-    .year {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-
-    .ed-info {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-
-    .ed-year {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-    
-    .margin {
-        margin-top: 20px;
-    }
-    
-    #education-content p {
-        display: block;
-        margin-top: 10px;
-    }
-  }
-
-  @media only screen and (min-width: 426px) and (max-width: 577px) {
-    * {
-        overflow: visible;
-    }
-
-    .wrapper {
-        width: 100%;
-    }
-    
-    #start {
-        display: block;
-        width: 97%;
-        height: 100%;
         margin: auto;
     }
 
-    //////////////////////// TOP ////////////////////////
+    ////////////////////////////// TOP //////////////////////////////
 
     .top {
-        display: block;
+        display: flex;
+        justify-content: center;
         width: 100%;
-        // height: 30%;
-        // margin-bottom: 1.7%;
     }
     
     #profile {
         display: block;
-        // height: 300px;
         width: 100%;
     }
     
     #profile-picture {
-        display: inline-block;
-        vertical-align: top;
-        width: 120px;
-        height: 120px;
-        background-color: beige;
-        // border-radius: 50%;
-        margin-top: 4.8%;
+        display: block;
+        width: 150px;
+        height: 150px;        
+        margin: 4.8% auto auto auto;
     }
     
     #profile-picture img {
@@ -362,650 +58,53 @@ body {
     }
     
     #profile-intro {
-        // display: inline-block;
+        display: block;
         margin-top: 4.8%;
-        float: right;
-        width: 62%;
-        height: 130px;
-        vertical-align: top;
     }
     
     .hi {
-        vertical-align: top;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    
-    #profile-intro p {
-        margin: 2% 0;
-        font-size: 0.8rem;
-        font-weight: 100;
-    }
-
-    .contact {
         display: block;
-        text-align: center;
-        // padding: 3%;
-        margin: 5% 0;
-    }
-
-    .contact h4 {
-        display: none;
-    }
-
-    .contact-details {
-        font-size: 0.8rem;
-        font-weight: 100;
-        text-align: left;
-    }
-      
-    .ab {
-        display: inline-block;
-        width: 180px;
-        margin: 0;
-    }
-    
-    .ab a {
-        color: black;
-    }
-
-    //////////////////////// START ////////////////////////
-    
-    #start-directory {
-        display: block;
-        // height: 68%;
-        width: 100%;
-        // vertical-align: top;
-    }
-    
-    #profile-about {
-        display: block;
-        width: 100%;
-        height: 50%;
-    }
-    
-    #about-container {
-        display: block;
-        width: 95%;
-        height: 100%;
-        // background-color: beige;
-        margin: auto;
-        // padding: 4% 3%;
-    }
-
-    #about-container div {
-        font-size: 0.9rem;
-        margin: 2% 0;
-    }
-
-    #about-container ul {
-        margin: 1% 0;
-    }
-    
-    #about-container ul li {
-        font-weight: 100;
-        font-size: 0.8rem;
-    }
-    
-    .projects{
-        display: none;
-        text-align: left;
-        margin-left: 2%; 
-        bottom: 22%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-      
-    .employment{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 14%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    .education{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 6%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    //////////////////////// CONTENT ////////////////////////
-    
-    #content-box {
-        display: inline-block;
-        vertical-align: top;
-        // height: 68%;
-        width: 100%;
-        // margin-left: 0.7%;
-        // overflow-y: scroll;
-    }
-    
-    #projects-content {
-        height: 155%;
-    }
-    
-    .slide {
-        width: 100%;
-        flex-shrink: 0;
-        height: 100%;
-        padding: 2.1% 2%;
-        scroll-behavior: smooth;
-        text-align: left;
-        font-weight: 100;
-    }
-    
-    .slide h3 {
-        font-weight: 900;
-        font-size: 1.2rem;
-    }
-    
-    // .slide div {
-    //     width: 33%;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     font-size: 0.8rem;
-    //     font-weight: 400;
-    // }
-    
-    .slide h5 {
-        font-weight: 700;
-        font-size: 1rem;
-        margin: 6% 0 2% 0;
-    }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 0.8rem;
-        margin: 4% 0 1% 0;
-    }
-    
-    .slide a {
-        margin-right: 10%;
-        font-size: 0.8rem;
-        // margin-bottom: 5%;
-    }
-
-    .slide ul {
-        margin: 4% 0 4% 0;
-    }
-
-    .slide ul li {
-        font-size: 0.8rem;
-    }
-    
-    .info {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-    
-    .location {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: center;
-    }
-    
-    .year {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-
-    .ed-info {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-
-    .ed-year {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-    
-    .margin {
-        margin-top: 20px;
-    }
-    
-    #education-content p {
-        display: block;
-        margin-top: 10px;
-    }
-  }
-
-  @media only screen and (min-width: 577px) and (max-width: 749px) {
-    * {
-        overflow: visible;
-    }
-
-    .wrapper {
-        width: 100%;
-    }
-    
-    #start {
-        display: block;
-        width: 75%;
-        height: 100%;
-        margin: auto;
-    }
-
-    //////////////////////// TOP ////////////////////////
-
-    .top {
-        display: block;
-        width: 100%;
-        // height: 30%;
-        // margin-bottom: 1.7%;
-    }
-    
-    #profile {
-        display: block;
-        // height: 300px;
-        width: 100%;
-    }
-    
-    #profile-picture {
-        display: inline-block;
-        vertical-align: top;
-        width: 135px;
-        height: 135px;
-        background-color: beige;
-        // border-radius: 50%;
-        margin-top: 4.8%;
-    }
-    
-    #profile-picture img {
-        object-fit: contain;
-        height: inherit;
-        width: auto;
-        display: block;
-    }
-    
-    #profile-intro {
-        // display: inline-block;
-        margin-top: 4.8%;
-        float: right;
-        width: 62%;
-        height: 130px;
-        vertical-align: top;
-    }
-    
-    .hi {
-        vertical-align: top;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    
-    #profile-intro p {
-        margin: 2% 0;
-        font-size: 0.8rem;
-        font-weight: 100;
-    }
-
-    .contact {
-        display: block;
-        text-align: center;
-        // padding: 3%;
-        margin: 5% 0;
-    }
-
-    .contact h4 {
-        display: none;
-    }
-
-    .contact-details {
-        font-size: 0.8rem;
-        font-weight: 100;
-        text-align: left;
-    }
-      
-    .ab {
-        display: inline-block;
-        width: 180px;
-        margin: 0;
-    }
-    
-    .ab a {
-        color: black;
-    }
-
-    //////////////////////// START ////////////////////////
-    
-    #start-directory {
-        display: block;
-        // height: 68%;
-        width: 100%;
-        // vertical-align: top;
-    }
-    
-    #profile-about {
-        display: block;
-        width: 100%;
-        height: 50%;
-    }
-    
-    #about-container {
-        display: block;
-        width: 95%;
-        height: 100%;
-        // background-color: beige;
-        margin: auto;
-        // padding: 4% 3%;
-    }
-
-    #about-container div {
-        font-size: 0.9rem;
-        margin: 2% 0;
-    }
-
-    #about-container ul {
-        margin: 1% 0;
-    }
-    
-    #about-container ul li {
-        font-weight: 100;
-        font-size: 0.8rem;
-    }
-    
-    .projects{
-        display: none;
-        text-align: left;
-        margin-left: 2%; 
-        bottom: 22%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-      
-    .employment{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 14%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    .education{
-        display: none;
-        text-align: left; 
-        margin-left: 2%; 
-        bottom: 6%;
-        position: absolute;
-        font-size: 3.5rem;
-        font-weight: 900;
-        color: gray;
-    }
-    
-    //////////////////////// CONTENT ////////////////////////
-    
-    #content-box {
-        display: inline-block;
-        vertical-align: top;
-        // height: 68%;
-        width: 100%;
-        // margin-left: 0.7%;
-        // overflow-y: scroll;
-    }
-    
-    #projects-content {
-        height: 155%;
-    }
-    
-    .slide {
-        width: 100%;
-        flex-shrink: 0;
-        height: 100%;
-        padding: 2.1% 2%;
-        scroll-behavior: smooth;
-        text-align: left;
-        font-weight: 100;
-    }
-    
-    .slide h3 {
-        font-weight: 900;
-        font-size: 1.2rem;
-    }
-    
-    // .slide div {
-    //     width: 33%;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     font-size: 0.8rem;
-    //     font-weight: 400;
-    // }
-    
-    .slide h5 {
-        font-weight: 700;
-        font-size: 1rem;
-        margin: 6% 0 2% 0;
-    }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 0.8rem;
-        margin: 4% 0 1% 0;
-    }
-    
-    .slide a {
-        margin-right: 10%;
-        font-size: 0.8rem;
-        // margin-bottom: 5%;
-    }
-
-    .slide ul {
-        margin: 4% 0 4% 0;
-    }
-
-    .slide ul li {
-        font-size: 0.8rem;
-    }
-    
-    .info {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-    
-    .location {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: center;
-    }
-    
-    .year {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-
-    .ed-info {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-
-    .ed-year {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.8rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-    
-    .margin {
-        margin-top: 20px;
-    }
-    
-    #education-content p {
-        display: block;
-        margin-top: 10px;
-    }
-  }
-
-
-  @media only screen and (min-width: 750px) and (max-width: 960px) {
-    * {
-        overflow: visible;
-    }
-    .wrapper {
-        width: 100%;
-    }
-    
-    #start {
-        display: block;
-        width: 80%;
-        height: 100%;
-        margin: auto;
-    }
-
-    //////////////////////// TOP ////////////////////////
-
-    .top {
-        display: block;
-        width: 100%;
-        height: 27vh;
-        // margin-bottom: 1.7%;
-    }
-    
-    #profile {
-        display: block;
-        // height: 300px;
-        width: 100%;
-    }
-    
-    #profile-picture {
-        display: inline-block;
-        float: left;
-        vertical-align: top;
-        width: 180px;
-        height: 180px;
-        background-color: beige;
-        // border-radius: 50%;
-        margin-top: 4.8%;
-    }
-    
-    #profile-picture img {
-        object-fit: contain;
-        height: inherit;
-        width: auto;
-        display: block;
-    }
-    
-    #profile-intro {
-        // display: inline-block;
-        margin-top: 4.8%;
-        float: right;
-        width: 67%;
-        height: 110px;
-        vertical-align: top;
-    }
-    
-    .hi {
-        vertical-align: top;
         font-size: 2rem;
         font-weight: 500;
+        text-align: center;
+        margin: 5% 0;
     }
     
     #profile-intro p {
-        margin: 2% 0;
+        text-align: justify;
+        margin: 5% 0;
         font-size: 0.9rem;
         font-weight: 100;
     }
 
     .contact {
         display: block;
-        width: 67%;
-        text-align: center;
-        // padding: 3%;
-        float: right;
-        margin: 2% 0 2% 0;
-    }
-
-    .contact h4 {
-        display: none;
+        margin: 7% auto;
     }
 
     .contact-details {
+        display: block;
         font-size: 0.9rem;
         font-weight: 100;
         text-align: left;
+        justify-content: center;
     }
       
     .ab {
-        display: inline-block;
+        display: block;
         width: 200px;
-        margin: 0;
+        margin: 1% auto;;
     }
     
     .ab a {
         color: black;
     }
 
-    //////////////////////// START ////////////////////////
+    ////////////////////////////// START //////////////////////////////
     
     #start-directory {
         display: block;
-        // height: 68%;
         width: 100%;
-        // vertical-align: top;
-        // margin-top: 5%;
     }
     
     #profile-about {
@@ -1017,10 +116,6 @@ body {
     #about-container {
         display: block;
         width: 100%;
-        height: 100%;
-        // background-color: beige;
-        margin: auto;
-        // padding: 4% 3%;
     }
 
     #about-container div {
@@ -1030,6 +125,7 @@ body {
 
     #about-container ul {
         margin: 1% 0;
+        padding-inline-start: 7%;
     }
     
     #about-container ul li {
@@ -1070,15 +166,11 @@ body {
         color: gray;
     }
     
-    //////////////////////// CONTENT ////////////////////////
+    ////////////////////////////// CONTENT //////////////////////////////
     
     #content-box {
-        display: inline-block;
-        vertical-align: top;
-        // height: 68%;
+        display: block;
         width: 100%;
-        // margin-left: 0.7%;
-        // overflow-y: scroll;
     }
     
     #projects-content {
@@ -1087,103 +179,102 @@ body {
     
     .slide {
         width: 100%;
-        flex-shrink: 0;
+        display: block;
         height: 100%;
-        padding: 2.1% 2%;
-        scroll-behavior: smooth;
         text-align: left;
         font-weight: 100;
     }
     
     .slide h3 {
         font-weight: 900;
-        font-size: 1.5rem;
-    }
-    
-    // .slide div {
-    //     width: 33%;
-    //     display: inline-block;
-    //     vertical-align: top;
-    //     font-size: 0.8rem;
-    //     font-weight: 400;
-    // }
-    
-    .slide h5 {
-        font-weight: 700;
-        font-size: 1.2rem;
-        margin: 4% 0 2% 0;
-    }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 0.9rem;
-        margin: 3% 0 1% 0;
-    }
-    
-    .slide a {
-        margin-right: 10%;
-        font-size: 0.9rem;
-        // margin-bottom: 5%;
-    }
-
-    .slide ul {
-        margin: 4% 0 4% 0;
-    }
-
-    .slide ul li {
-        font-size: 0.9rem;
-    }
-    
-    .info {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-    
-    .location {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
+        font-size: 2rem;
+        margin: 18% 0 8% 0;
         text-align: center;
     }
     
-    .year {
-        // font-style: italic;
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
+    .slide-block h5 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin: 6% 0 2% 0;
     }
 
-    .ed-info {
-        width: 45%;
+    .slide-block p {
+        font-weight: 100;
+        font-size: 0.9rem;
+        margin: 2% 0 1% 0;
+        text-align: justify;
+    }
+
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+    
+    .slide-block a {
+        display: inline-block;
+        margin-right: 10%;
+        font-size: 0.9rem;
+        margin: 2% auto 0 0;
+    }
+
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
+    }
+
+    .slide-block ul li {
+        font-size: 0.9rem;
+    }
+
+    .slide-block {
+        margin-bottom: 10%;
+    }
+    
+    .info {
+        width: 49%;
         display: inline-block;
         vertical-align: top;
         font-size: 0.9rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
-
-    .ed-year {
-        width: 45%;
+    
+    .location {
+        width: 49%;
         display: inline-block;
         vertical-align: top;
         font-size: 0.9rem;
         font-weight: 400;
         text-align: right;
-        float: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .ed-info {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .ed-year {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: right;
     }
     
     .margin {
@@ -1196,13 +287,582 @@ body {
     }
   }
 
-  @media only screen and (min-width: 961px) and (max-width: 1198px) {
+  ///////////////////////////////////////// TABLET /////////////////////////////////////////
+
+  @media only screen and (min-width: 601px) and (max-width: 915px) {
+    * {
+        overflow: visible;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+    
+    #start {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+
+    ////////////////////////////// TOP //////////////////////////////
+
+    .top {
+        display: block;
+        width: 100%;
+    }
+    
+    #profile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #profile-picture {
+        display: inline-block;
+        width: 150px;
+        height: 150px;  
+        vertical-align: top;      
+        margin: 4.8% 0 0 0;
+    }
+    
+    #profile-picture img {
+        object-fit: fill;
+        height: 150px;
+        width: 150px;
+        display: block;
+    }
+    
+    #profile-intro {
+        display: inline-block;
+        vertical-align: top;
+        width: 70%;
+        height: 150px;
+        margin: 4.8% auto 0 auto;
+    }
+    
+    .hi {
+        display: block;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: left;
+    }
+    
+    #profile-intro p {
+        text-align: justify;
+        margin: 5% 0;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .contact {
+        display: flex;
+        width: 100%;
+        margin: 5% auto 2% auto;
+        justify-content: center;
+    }
+
+    .contact-details {
+        display: flex;
+        font-size: 1rem;
+        font-weight: 100;
+        width: 90%;
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      
+    .ab {
+        display: inline-block;
+        width: 250px;
+        margin: 1% auto;
+    }
+    
+    .ab a {
+        color: black;
+    }
+
+    ////////////////////////////// START //////////////////////////////
+    
+    #start-directory {
+        display: block;
+        width: 100%;
+    }
+    
+    #profile-about {
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #about-container {
+        display: block;
+        width: 100%;
+    }
+
+    #about-container div {
+        font-size: 1.2rem;
+        margin: 2% 0;
+    }
+
+    #about-container ul {
+        margin: 1% 0;
+        padding-inline-start: 7%;
+    }
+    
+    #about-container ul li {
+        font-weight: 100;
+        font-size: 1rem;
+    }
+    
+    .projects{
+        display: none;
+        text-align: left;
+        margin-left: 2%; 
+        bottom: 22%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+      
+    .employment{
+        display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        bottom: 14%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+    
+    .education{
+        display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        bottom: 6%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+    
+    ////////////////////////////// CONTENT //////////////////////////////
+    
+    #content-box {
+        display: block;
+        width: 100%;
+    }
+    
+    #projects-content {
+        height: 155%;
+    }
+    
+    .slide {
+        width: 100%;
+        display: block;
+        height: 100%;
+        text-align: left;
+        font-weight: 100;
+    }
+    
+    .slide h3 {
+        font-weight: 900;
+        font-size: 2.3rem;
+        margin: 10% 0 3% 0;
+        text-align: center;
+    }
+    
+    .slide-block h5 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 2% 0;
+    }
+
+    .slide-block p {
+        font-weight: 100;
+        font-size: 1rem;
+        margin: 2% 0 1% 0;
+        text-align: justify;
+    }
+
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    
+    .slide-block a {
+        display: inline-block;
+        margin-right: 10%;
+        font-size: 1rem;
+        margin: 2% auto 0 0;
+    }
+
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
+    }
+
+    .slide-block ul li {
+        font-size: 1rem;
+    }
+
+    .slide-block {
+        margin-bottom: 10%;
+    }
+    
+    .info {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .location {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .ed-info {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .ed-year {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: right;
+    }
+    
+    .margin {
+        margin-top: 20px;
+    }
+    
+    #education-content p {
+        display: block;
+        margin-top: 10px;
+    }
+  }
+
+
+  @media only screen and (min-width: 916px) and (max-width: 1023px) {
+    * {
+        overflow: visible;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+    
+    #start {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+
+    ////////////////////////////// TOP //////////////////////////////
+
+    .top {
+        display: block;
+        width: 100%;
+    }
+    
+    #profile {
+        width: 100%;
+        height: 230px;
+        display: block;
+    }
+    
+    #profile-picture {
+        display: inline-block;
+        float: left;
+        width: 180px;
+        height: 180px;  
+        vertical-align: top;      
+        margin: 4.8% 0 0 0;
+    }
+    
+    #profile-picture img {
+        object-fit: fill;
+        height: 180px;
+        width: 180px;
+        display: block;
+    }
+    
+    #profile-intro {
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        width: 70%;
+        // height: 180px;
+        margin: 4.8% auto 2% auto;
+    }
+    
+    .hi {
+        display: block;
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: left;
+    }
+    
+    #profile-intro p {
+        text-align: justify;
+        margin: 1% 0;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .contact {
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        width: 70%;
+        // margin: 5% auto 2% auto;
+        justify-content: center;
+    }
+
+    .contact-details {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 100;
+        width: 90%;
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+      
+    .ab {
+        display: inline-block;
+        width: 225px;
+        margin: 1% auto;
+    }
+    
+    .ab a {
+        color: black;
+    }
+
+    ////////////////////////////// START //////////////////////////////
+    
+    #start-directory {
+        display: block;
+        width: 100%;
+    }
+    
+    #profile-about {
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    
+    #about-container {
+        display: block;
+        width: 100%;
+    }
+
+    #about-container div {
+        font-size: 1.2rem;
+        margin: 2% 0;
+    }
+
+    #about-container ul {
+        margin: 1% 0;
+        padding-inline-start: 7%;
+    }
+    
+    #about-container ul li {
+        font-weight: 100;
+        font-size: 1rem;
+    }
+    
+    .projects{
+        display: none;
+        text-align: left;
+        margin-left: 2%; 
+        bottom: 22%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+      
+    .employment{
+        display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        bottom: 14%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+    
+    .education{
+        display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        bottom: 6%;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 900;
+        color: gray;
+    }
+    
+    ////////////////////////////// CONTENT //////////////////////////////
+    
+    #content-box {
+        display: block;
+        width: 100%;
+    }
+    
+    #projects-content {
+        height: 155%;
+    }
+    
+    .slide {
+        width: 100%;
+        display: block;
+        height: 100%;
+        text-align: left;
+        font-weight: 100;
+    }
+    
+    .slide h3 {
+        font-weight: 900;
+        font-size: 2.3rem;
+        margin: 7% 0 3% 0;
+        text-align: center;
+    }
+    
+    .slide-block h5 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 2% 0;
+    }
+
+    .slide-block p {
+        font-weight: 100;
+        font-size: 1rem;
+        margin: 2% 0 1% 0;
+        text-align: justify;
+    }
+
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    
+    .slide-block a {
+        display: inline-block;
+        margin-right: 10%;
+        font-size: 1rem;
+        margin: 2% auto 0 0;
+    }
+
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
+    }
+
+    .slide-block ul li {
+        font-size: 1rem;
+    }
+
+    .slide-block {
+        margin-bottom: 7.5%;
+    }
+    
+    .info {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .location {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
+    }
+
+    .ed-info {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .ed-year {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: right;
+    }
+    
+    .margin {
+        margin-top: 20px;
+    }
+    
+    #education-content p {
+        display: block;
+        margin-top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1260px) {
     .wrapper {
         display: flexbox;
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: 98vh;
+        height: 852px;
+        overflow: hidden;
     }
 
     #start {
@@ -1215,8 +875,7 @@ body {
     .top {
         display: block;
         width: 100%;
-        height: 30%;
-        margin-bottom: 1.7%;
+        height: 32%;
     }
 
     #profile {
@@ -1275,7 +934,7 @@ body {
 
     .ab {
         display: inline-block;
-        width: 210px;
+        width: 250px;
         margin: 0;
     }
     
@@ -1284,19 +943,19 @@ body {
     }
 
     #profile-intro p {
-    font-weight: 100;
-    font-size: 1rem;
+        font-weight: 100;
+        font-size: 1rem;
     }
 
     //////////////////////// START ////////////////////////
 
     #start-directory {
-    display: inline-block;
-    float: left;
-    height: 65%;
-    width: 200px;
-    vertical-align: top;
-    margin-top: 3%;
+        display: inline-block;
+        float: left;
+        height: 68%;
+        width: 200px;
+        vertical-align: top;
+        margin-top: 3%;
     }
 
     #start-directory h1 {
@@ -1304,360 +963,25 @@ body {
     }
 
     #profile-about {
-    display: block;
-    width: 100%;
-    height: 50%;
+        display: block;
+        width: 100%;
+        height: 60%;
     }
 
     #about-container {
-    display: block;
-    width: 95%;
-    height: 100%;
-    // background-color: beige;
-    margin: auto;
-    padding: 4% 3%;
-    font-weight: 100;
-    font-size: 0.9rem;
-    }
-
-    #about-container div {
-        font-size: 1rem;
-        font-weight: 500;
-        // margin: 2% 0;
-    }
-
-    #about-container ul {
-        padding-inline-start: 4%;
-    }
-
-    #about-container ul li {
-    font-weight: 100;
-    font-size: 0.9rem;
-    }
-
-    .projects{
-    display: block;
-    text-align: left;
-    margin-left: 2%; 
-    bottom: 19%;
-    position: absolute;
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: gray;
-    }
-
-    .projects:before{
-        content: attr(data-text);
-        color: black;
-        position: absolute;
-        width: 0;
-        overflow: hidden;
-        transition: 0.9s;
-    }
-    
-    .projects:hover:before{
-        width: 100%;
-    }
-  
-    .employment{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 13%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
-    }
-
-    .employment:before{
-        content: attr(data-text);
-        color: black;
-        position: absolute;
-        width: 0;
-        overflow: hidden;
-        transition: 0.9s;
-    }
-    
-    .employment:hover:before{
-        width: 100%;
-    }
-
-    .education{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 7%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
-    }
-
-    .education:before{
-        content: attr(data-text);
-        color: black;
-        position: absolute;
-        width: 0;
-        overflow: hidden;
-        transition: 0.9s;
-    }
-    
-    .education:hover:before{
-        width: 100%;
-    }
-
-    //////////////////////// CONTENT ////////////////////////
-
-    #content-box {
-    display: inline-block;
-    float: right;
-    vertical-align: top;
-    height: 67%;
-    width: 69%;
-    // margin-left: 0.7%;
-    overflow-y: scroll;
-    }
-
-    #projects-content {
-    height: 160%;
-    }
-
-    .slide {
-    width: 96%;
-    flex-shrink: 0;
-    height: 105%;
-    padding: 2.1% 2%;
-    scroll-behavior: smooth;
-    text-align: left;
-    font-weight: 100;
-    }
-
-    .slide h5 {
-        font-weight: 700;
-        font-size: 1.2rem;
-        margin: 4% 0 2% 0;
-    }
-
-    .slide h3 {
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-top: 0.6em;
-    }
-
-
-    // .slide div {
-    // width: 33%;
-    // display: inline-block;
-    // font-size: 1rem;
-    // font-weight: 400;
-    // }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 0.95rem;
-        margin: 3% 0 1% 0;
-    }
-
-    .slide a {
-        margin-right: 10%;
-        font-size: 0.9rem;
-        // margin-bottom: 5%;
-    }
-
-    .slide ul {
-        margin: 1% 0 5% 0;
-    }
-
-    .info {
-    // font-style: italic;
-    width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-
-    .location {
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .year {
-    // font-style: italic;
-    width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-
-    .ed-info {
-        width: 49%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: left;
-        float: left;
-    }
-
-    .ed-year {
-        width: 49%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: right;
-        float: right;
-    }
-
-    .margin {
-    margin-top: 20px;
-    }
-
-    #education-content p {
         display: block;
-        margin-top: 30px;
-    }
-  }
-
-  @media only screen and (min-width: 1199px) and (max-width: 1276px) {
-    .wrapper {
-        display: flexbox;
-        justify-content: center;
-        align-content: center;
-        width: 100%;
-        height: 98vh;
-    }
-
-    #start {
-        display: block;
-        width: 75%;
+        width: 95%;
         height: 100%;
+        // background-color: beige;
         margin: auto;
-    }
-
-    .top {
-        display: block;
-        width: 100%;
-        height: 30%;
-        margin-bottom: 1.7%;
-    }
-
-    #profile {
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
-    #profile-picture {
-        // display: inline-block;
-        float: left;
-        vertical-align: top;
-        width: 200px;
-        height: 200px;
-        background-color: beige;
-        // border-radius: 50%;
-        margin-top: 4.8%;
-    }
-
-    #profile-picture img {
-        object-fit: contain;
-        height: 200px;
-        width: auto;
-        display: block;
-    }
-
-    #profile-intro {
-        // display: inline-block;
-        margin-top: 4.8%;
-        margin-bottom: 2%;
-        float: right;
-        width: 67%;
-        vertical-align: top;
-    }
-
-    .hi {
-        vertical-align: top;
-        font-size: 2.1rem;
-        font-weight: 500;
-    }
-
-    .contact {
-        display: block;
-        width: 67%;
-        text-align: center;
-        // padding: 3%;
-        float: right;
-        // margin: 2% 0 2% 0;
-    }
-
-    .contact-details {
-        font-size: 0.95rem;
+        padding: 4% 3%;
         font-weight: 100;
-        text-align: left;
-    }
-
-    .ab {
-        display: inline-block;
-        width: 215px;
-        margin: 0;
-    }
-    
-    .ab a {
-        color: black;
-    }
-
-    #profile-intro p {
-    font-weight: 100;
-    font-size: 1rem;
-    }
-
-    //////////////////////// START ////////////////////////
-
-    #start-directory {
-    display: inline-block;
-    float: left;
-    height: 65%;
-    width: 200px;
-    vertical-align: top;
-    margin-top: 3%;
-    }
-
-    #start-directory h1 {
-        margin: 0;
-    }
-
-    #profile-about {
-    display: block;
-    width: 100%;
-    height: 50%;
-    }
-
-    #about-container {
-    display: block;
-    width: 95%;
-    height: 100%;
-    // background-color: beige;
-    margin: auto;
-    padding: 4% 3%;
-    font-weight: 100;
-    font-size: 0.9rem;
+        font-size: 0.9rem;
     }
 
     #about-container div {
-        font-size: 1rem;
+        font-size: 1.05rem;
         font-weight: 500;
-        // margin: 2% 0;
     }
 
     #about-container ul {
@@ -1665,19 +989,24 @@ body {
     }
 
     #about-container ul li {
-    font-weight: 100;
-    font-size: 0.9rem;
+        font-weight: 100;
+        font-size: 0.9rem;
+    }
+
+    #directory {
+        height: 30%;
+        position: relative;
     }
 
     .projects{
-    display: block;
-    text-align: left;
-    margin-left: 2%; 
-    bottom: 19%;
-    position: absolute;
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left;
+        margin-left: 2%; 
+        // top: 76%;
+        position: absolute;
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .projects:before{
@@ -1694,14 +1023,14 @@ body {
     }
   
     .employment{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 13%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        top: 27%;
+        position: absolute;
+        font-size: 2.4rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .employment:before{
@@ -1718,14 +1047,14 @@ body {
     }
 
     .education{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 7%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        top: 55%;
+        position: absolute;
+        font-size: 2.4rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .education:before{
@@ -1744,27 +1073,27 @@ body {
     //////////////////////// CONTENT ////////////////////////
 
     #content-box {
-    display: inline-block;
-    float: right;
-    vertical-align: top;
-    height: 67%;
-    width: 69%;
-    // margin-left: 0.7%;
-    overflow-y: scroll;
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        height: 60%;
+        width: 69%;
+        // margin-left: 0.7%;
+        overflow-y: scroll;
     }
 
     #projects-content {
-    height: 160%;
+        height: auto;
     }
 
     .slide {
-    width: 96%;
-    flex-shrink: 0;
-    height: 105%;
-    padding: 2.1% 2%;
-    scroll-behavior: smooth;
-    text-align: left;
-    font-weight: 100;
+        width: 96%;
+        flex-shrink: 0;
+        height: auto;
+        padding: 3% 2%;
+        scroll-behavior: smooth;
+        text-align: left;
+        font-weight: 100;
     }
 
     .slide h5 {
@@ -1774,84 +1103,87 @@ body {
     }
 
     .slide h3 {
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-top: 0.6em;
+        font-weight: 900;
+        font-size: 1.7rem;
+        margin: 1% 0 3% 0;
     }
 
-
-    // .slide div {
-    // width: 33%;
-    // display: inline-block;
-    // font-size: 1rem;
-    // font-weight: 400;
-    // }
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: italic;
+    }
 
     .slide p {
         font-weight: 100;
-        font-size: 0.95rem;
+        font-size: 1rem;
         margin: 3% 0 1% 0;
     }
 
-    .slide a {
+    .slide-block a {
+        display: inline-block;
         margin-right: 10%;
-        font-size: 0.9rem;
-        // margin-bottom: 5%;
+        font-size: 1rem;
+        margin: 2% auto 0 0;
     }
 
-    .slide ul {
-        margin: 1% 0 5% 0;
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
     }
 
+    .slide-block ul li {
+        font-size: 1rem;
+    }
+
+    .slide-block {
+        margin-bottom: 8%;
+    }
+    
     .info {
-    // font-style: italic;
-    width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .location {
-        width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .year {
-    // font-style: italic;
-    width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
     }
 
     .ed-info {
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .ed-year {
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
     }
 
     .margin {
@@ -1864,13 +1196,15 @@ body {
     }
   }
 
-  @media only screen and (min-width: 1277px) and (max-width: 1368px) {
+  @media only screen and (min-width: 1261px) and (max-width: 1440px) {
     .wrapper {
-        display: flexbox;
+        display: flex;
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: 98vh;
+        height: 890px;
+        // height: 98vh;
+        overflow: hidden;
     }
 
     #start {
@@ -1883,8 +1217,7 @@ body {
     .top {
         display: block;
         width: 100%;
-        height: 30%;
-        margin-bottom: 1.7%;
+        height: 32%;
     }
 
     #profile {
@@ -1943,7 +1276,7 @@ body {
 
     .ab {
         display: inline-block;
-        width: 230px;
+        width: 250px;
         margin: 0;
     }
     
@@ -1952,19 +1285,19 @@ body {
     }
 
     #profile-intro p {
-    font-weight: 100;
-    font-size: 1rem;
+        font-weight: 100;
+        font-size: 1rem;
     }
 
     //////////////////////// START ////////////////////////
 
     #start-directory {
-    display: inline-block;
-    float: left;
-    height: 65%;
-    width: 200px;
-    vertical-align: top;
-    margin-top: 3%;
+        display: inline-block;
+        float: left;
+        height: 68%;
+        width: 200px;
+        vertical-align: top;
+        margin-top: 3%;
     }
 
     #start-directory h1 {
@@ -1972,26 +1305,25 @@ body {
     }
 
     #profile-about {
-    display: block;
-    width: 100%;
-    height: 50%;
+        display: block;
+        width: 100%;
+        height: 60%;
     }
 
     #about-container {
-    display: block;
-    width: 95%;
-    height: 100%;
-    // background-color: beige;
-    margin: auto;
-    padding: 4% 3%;
-    font-weight: 100;
-    font-size: 0.9rem;
+        display: block;
+        width: 95%;
+        height: 100%;
+        // background-color: beige;
+        margin: auto;
+        padding: 4% 3%;
+        font-weight: 100;
+        font-size: 0.9rem;
     }
 
     #about-container div {
-        font-size: 1rem;
+        font-size: 1.05rem;
         font-weight: 500;
-        // margin: 2% 0;
     }
 
     #about-container ul {
@@ -1999,19 +1331,24 @@ body {
     }
 
     #about-container ul li {
-    font-weight: 100;
-    font-size: 0.9rem;
+        font-weight: 100;
+        font-size: 0.9rem;
+    }
+
+    #directory {
+        height: 30%;
+        position: relative;
     }
 
     .projects{
-    display: block;
-    text-align: left;
-    margin-left: 2%; 
-    bottom: 19%;
-    position: absolute;
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left;
+        margin-left: 2%; 
+        // top: 76%;
+        position: absolute;
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .projects:before{
@@ -2028,14 +1365,14 @@ body {
     }
   
     .employment{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 13%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        top: 27%;
+        position: absolute;
+        font-size: 2.4rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .employment:before{
@@ -2052,14 +1389,14 @@ body {
     }
 
     .education{
-    display: block;
-    text-align: left; 
-    margin-left: 2%; 
-    bottom: 7%;
-    position: absolute;
-    font-size: 2.4rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left; 
+        margin-left: 2%; 
+        top: 55%;
+        position: absolute;
+        font-size: 2.4rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .education:before{
@@ -2078,27 +1415,28 @@ body {
     //////////////////////// CONTENT ////////////////////////
 
     #content-box {
-    display: inline-block;
-    float: right;
-    vertical-align: top;
-    height: 67%;
-    width: 69%;
-    // margin-left: 0.7%;
-    overflow-y: scroll;
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        height: 69%;
+        width: 69%;
+        // margin-left: 0.7%;
+        overflow-y: scroll;
+        
     }
 
     #projects-content {
-    height: 160%;
+        height: auto;
     }
 
     .slide {
-    width: 96%;
-    flex-shrink: 0;
-    height: 105%;
-    padding: 2.1% 2%;
-    scroll-behavior: smooth;
-    text-align: left;
-    font-weight: 100;
+        width: 96%;
+        flex-shrink: 0;
+        height: auto;
+        padding: 3% 2%;
+        scroll-behavior: smooth;
+        text-align: left;
+        font-weight: 100;
     }
 
     .slide h5 {
@@ -2108,84 +1446,87 @@ body {
     }
 
     .slide h3 {
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-top: 0.6em;
+        font-weight: 900;
+        font-size: 1.7rem;
+        margin: 1% 0 3% 0;
     }
 
-
-    // .slide div {
-    // width: 33%;
-    // display: inline-block;
-    // font-size: 1rem;
-    // font-weight: 400;
-    // }
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: italic;
+    }
 
     .slide p {
         font-weight: 100;
-        font-size: 0.95rem;
+        font-size: 1rem;
         margin: 3% 0 1% 0;
     }
 
-    .slide a {
+    .slide-block a {
+        display: inline-block;
         margin-right: 10%;
-        font-size: 0.9rem;
-        // margin-bottom: 5%;
+        font-size: 1rem;
+        margin: 2% auto 0 0;
     }
 
-    .slide ul {
-        margin: 1% 0 5% 0;
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
     }
 
+    .slide-block ul li {
+        font-size: 1rem;
+    }
+
+    .slide-block {
+        margin-bottom: 8%;
+    }
+    
     .info {
-    // font-style: italic;
-    width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .location {
-        width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .year {
-    // font-style: italic;
-    width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
     }
 
     .ed-info {
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .ed-year {
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
     }
 
     .margin {
@@ -2198,18 +1539,21 @@ body {
     }
   }
 
-  @media only screen and (min-width: 1369px) {
+  
+  @media only screen and (min-width: 1440px) {
     .wrapper {
-        display: flexbox;
+        display: flex;
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: 98vh;
+        height: 890px;
+        // height: 98vh;
+        overflow: hidden;
     }
 
     #start {
         display: block;
-        width: 65%;
+        width: 60%;
         height: 100%;
         margin: auto;
     }
@@ -2217,8 +1561,7 @@ body {
     .top {
         display: block;
         width: 100%;
-        height: 30%;
-        margin-bottom: 1.7%;
+        height: 32%;
     }
 
     #profile {
@@ -2231,8 +1574,8 @@ body {
         // display: inline-block;
         float: left;
         vertical-align: top;
-        width: 215px;
-        height: 215px;
+        width: 200px;
+        height: 200px;
         background-color: beige;
         // border-radius: 50%;
         margin-top: 4.8%;
@@ -2240,7 +1583,7 @@ body {
 
     #profile-picture img {
         object-fit: contain;
-        height: 215px;
+        height: 200px;
         width: auto;
         display: block;
     }
@@ -2256,7 +1599,7 @@ body {
 
     .hi {
         vertical-align: top;
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         font-weight: 500;
     }
 
@@ -2286,19 +1629,19 @@ body {
     }
 
     #profile-intro p {
-    font-weight: 100;
-    font-size: 1rem;
+        font-weight: 100;
+        font-size: 1rem;
     }
 
     //////////////////////// START ////////////////////////
 
     #start-directory {
-    display: inline-block;
-    float: left;
-    height: 65%;
-    width: 215px;
-    vertical-align: top;
-    margin-top: 3%;
+        display: inline-block;
+        float: left;
+        height: 68%;
+        width: 200px;
+        vertical-align: top;
+        margin-top: 3%;
     }
 
     #start-directory h1 {
@@ -2306,26 +1649,25 @@ body {
     }
 
     #profile-about {
-    display: block;
-    width: 100%;
-    height: 50%;
+        display: block;
+        width: 100%;
+        height: 60%;
     }
 
     #about-container {
-    display: block;
-    width: 95%;
-    height: 100%;
-    // background-color: beige;
-    margin: auto;
-    padding: 4% 3%;
-    font-weight: 100;
-    font-size: 1rem;
+        display: block;
+        width: 95%;
+        height: 100%;
+        // background-color: beige;
+        margin: auto;
+        padding: 4% 3%;
+        font-weight: 100;
+        font-size: 0.9rem;
     }
 
     #about-container div {
-        font-size: 1.2rem;
+        font-size: 1.05rem;
         font-weight: 500;
-        // margin: 2% 0;
     }
 
     #about-container ul {
@@ -2333,19 +1675,24 @@ body {
     }
 
     #about-container ul li {
-    font-weight: 100;
-    font-size: 0.9rem;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    #directory {
+        height: 30%;
+        position: relative;
     }
 
     .projects{
-    display: block;
-    text-align: left;
-    margin-left: 2%; 
-    bottom: 17%;
-    position: absolute;
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: gray;
+        // display: none;
+        text-align: left;
+        margin-left: 2%; 
+        top: 10%;
+        position: absolute;
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: gray;
     }
 
     .projects:before{
@@ -2362,10 +1709,10 @@ body {
     }
   
     .employment{
-        display: block;
+        // display: none;
         text-align: left; 
         margin-left: 2%; 
-        bottom: 11%;
+        top: 35%;
         position: absolute;
         font-size: 2.4rem;
         font-weight: 900;
@@ -2386,10 +1733,10 @@ body {
     }
 
     .education{
-        display: block;
+        // display: none;
         text-align: left; 
         margin-left: 2%; 
-        bottom: 5%;
+        top: 60.8%;
         position: absolute;
         font-size: 2.4rem;
         font-weight: 900;
@@ -2415,21 +1762,22 @@ body {
         display: inline-block;
         float: right;
         vertical-align: top;
-        height: 67%;
+        height: 69%;
         width: 69%;
         // margin-left: 0.7%;
         overflow-y: scroll;
+        
     }
 
     #projects-content {
-        height: 160%;
+        height: auto;
     }
 
     .slide {
         width: 96%;
         flex-shrink: 0;
-        height: 105%;
-        padding: 2.1% 2%;
+        height: auto;
+        padding: 3% 2%;
         scroll-behavior: smooth;
         text-align: left;
         font-weight: 100;
@@ -2442,64 +1790,69 @@ body {
     }
 
     .slide h3 {
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin-top: 0.8em;
+        font-weight: 900;
+        font-size: 1.7rem;
+        margin: 1% 0 3% 0;
     }
 
-
-    // .slide div {
-    // width: 33%;
-    // display: inline-block;
-    // font-size: 1rem;
-    // font-weight: 400;
-    // }
+    .techstack {
+        display: block;
+        margin: 2% 0 1% 0;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: italic;
+    }
 
     .slide p {
         font-weight: 100;
         font-size: 1rem;
-        margin: 3% 0 1% 0;
+        margin: 2% 0 1% 0;
     }
 
-    .slide a {
+    .slide-block a {
+        display: inline-block;
         margin-right: 10%;
         font-size: 1rem;
-        // margin-bottom: 5%;
+        margin: 2% auto 0 0;
     }
 
-    .slide ul {
-        margin: 1% 0 5% 0;
+    .slide-block ul {
+        margin: 4% 0 4% 0;
+        padding-inline-start: 7%;
     }
 
+    .slide-block ul li {
+        font-size: 1rem;
+    }
+
+    .slide-block {
+        margin-bottom: 6%;
+    }
+    
     .info {
-    // font-style: italic;
-    width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
         font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .location {
-        width: 33%;
-        display: inline-block;
-        vertical-align: top;
-        font-size: 1rem;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .year {
-    // font-style: italic;
-    width: 33%;
+        width: 49%;
         display: inline-block;
         vertical-align: top;
         font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
+    }
+    
+    .year {
+        width: 100%;
+        display: block;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: left;
     }
 
     .ed-info {
@@ -2509,7 +1862,6 @@ body {
         font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        float: left;
     }
 
     .ed-year {
@@ -2519,7 +1871,6 @@ body {
         font-size: 1rem;
         font-weight: 400;
         text-align: right;
-        float: right;
     }
 
     .margin {
@@ -2528,6 +1879,6 @@ body {
 
     #education-content p {
         display: block;
-        margin-top: 35px;
+        margin-top: 30px;
     }
   }
