@@ -22,7 +22,8 @@ body {
   }
   #start {
     display: flexbox;
-    width: 420px;
+    width: 97%;
+    max-width: 470px;
     height: 100%;
     margin: auto;
   }
