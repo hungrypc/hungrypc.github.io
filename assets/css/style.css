@@ -176,6 +176,9 @@ body {
   .page-section {
     height: auto;
   }
+  .last {
+    height: 945px;
+  }
   .content-wrapper {
     display: block;
     margin: auto;
@@ -646,6 +649,9 @@ body {
   .page-section {
     height: auto;
   }
+  .last {
+    height: 945px;
+  }
   .content-wrapper {
     display: block;
     margin: auto;
@@ -1113,6 +1119,9 @@ body {
   .page-section {
     height: 938px;
   }
+  .last {
+    height: 945px;
+  }
   .content-wrapper {
     display: block;
     margin: auto;
@@ -1576,6 +1585,9 @@ body {
   .page-section {
     height: 938px;
   }
+  .last {
+    height: 945px;
+  }
   .content-wrapper {
     display: block;
     margin: auto;
@@ -1676,7 +1688,7 @@ body {
   .skills {
     height: 100%;
     width: 30%;
-    padding: 15px;
+    padding: 20px 15px;
     border: 1px solid #eee;
     border-radius: 12px;
   }
