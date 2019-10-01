@@ -1489,6 +1489,7 @@ body {
     width: 190px;
     height: 50px;
     border: 2px solid white;
+    border-radius: 6px;
     margin: auto;
     color: white;
     text-align: center;
@@ -1600,7 +1601,8 @@ body {
     font-size: 2.7rem;
     font-weight: 700;
     text-align: center;
-    color: #ff1f73;
+    color: #0F2027;
+    margin-bottom: 25px;
   }
   .profile {
     display: -webkit-box;
@@ -1640,7 +1642,7 @@ body {
        object-fit: contain;
     height: 280px;
     width: auto;
-    border-radius: 12px;
+    border-radius: 6px;
     display: block;
   }
   .profile-intro {
@@ -1688,14 +1690,19 @@ body {
   .skills {
     height: 100%;
     width: 30%;
-    padding: 20px 15px;
-    border: 1px solid #eee;
-    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
   }
   .skills div {
-    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
     margin-bottom: 25px;
-    font-weight: 700;
+    font-weight: 500;
+  }
+  .skills ul {
+    -webkit-padding-start: 5%;
+            padding-inline-start: 5%;
   }
   .skills ul li {
     font-size: 1rem;
@@ -1874,14 +1881,37 @@ body {
     }
   }
   .projects-container {
-    margin-top: 20px;
-    max-width: 100%;
-    height: 600px;
-    padding: 15px 35px;
-    border: solid 0.5px #e1e1e1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .project-wrap {
+    display: block;
+    width: 32%;
+    height: 47%;
+    border: 1px solid #e1e1e1;
     border-radius: 6px;
-    text-align: left;
-    overflow: scroll;
+  }
+  .project-wrap img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .hidden {
+    border: none;
   }
   .techstack {
     display: block;
