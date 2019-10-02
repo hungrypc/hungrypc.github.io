@@ -2005,6 +2005,7 @@ body {
         height: 100%;
         width: 100%;
         opacity: 0.8;
+        border-radius: 6px; 
     }
 
     .projects-mobile {
@@ -2017,54 +2018,62 @@ body {
         left: 0;
         height: 100%;
         width: 100%;
-        visibility: hidden;
-        opacity: 0;
-        // transition: opacity 600ms, visibility 600ms;
+        background-color: transparent;
     }
 
-    .back {
-        width: 100%;
-        height: 100%; 
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgb(255, 255, 255); 
-        z-index: 2; 
-        border-radius: 6px;
-    }
+    // .back {
+    //     width: 100%;
+    //     height: 100%; 
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     background-color: rgb(255, 255, 255); 
+    //     z-index: 2; 
+    //     border-radius: 6px;
+    // } 
 
     .project-info .slide-block {
         z-index: 5;
         position: absolute;
         top: 0;
         left: 0;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.3s linear;
     }
 
-    .project-wrap:hover .project-info {
-        visibility: visible;
+    .project-wrap:hover .slide-block {
         opacity: 1;
-        animation: fade 1s;
     }
 
     .project-info .slide-block {
-        padding: 15px;
+        padding: 25px;
     }
 
     .slide-block h5 {
-        font-weight: 700;
+        font-weight: 900;
         font-size: 1.1rem;
-        margin: 4% 0 2% 0;
+        margin: 4% 0 5% 0;
     }
 
     .slide-block p {
+        // position: absolute;
+        // bottom: 60px;
         font-weight: 100;
         font-size: 0.9rem;
-        margin: 2% 0 1% 0;
+        margin: 5% 0 1% 0;
     }
 
     .slide-block a {
         font-weight: 100;
         font-size: 0.9rem; 
+    }
+
+    .view-on {
+        position: absolute;
+        bottom: 15px;
     }
 
     .hidden {
