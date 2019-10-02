@@ -1797,13 +1797,14 @@ body {
   }
   .tab-content p {
     font-weight: 100;
-    margin-top: 8px;
+    margin-top: 12px;
+    font-size: 0.9rem;
   }
   .ed-info {
     width: 49%;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: left;
   }
@@ -1811,7 +1812,7 @@ body {
     width: 49%;
     display: inline-block;
     vertical-align: top;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: right;
   }
@@ -1923,12 +1924,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #0F2027;
+    color: white;
+    border-radius: 6px;
     width: 100%;
     height: 100%;
     opacity: 0;
     -webkit-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
+    text-align: center;
   }
   .project-wrap:hover .slide-block {
     opacity: 1;
@@ -1936,23 +1940,43 @@ body {
   .project-info .slide-block {
     padding: 25px;
   }
+  .project-info .slide-block h5 {
+    margin-bottom: 5%;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
   .slide-block h5 {
     font-weight: 900;
-    font-size: 1.1rem;
-    margin: 4% 0 5% 0;
+    font-size: 1.4rem;
+    margin: 4% 0 2% 0;
   }
-  .slide-block p {
+  .slide-block .project-about {
     font-weight: 100;
     font-size: 0.9rem;
     margin: 5% 0 1% 0;
+    text-align: justify;
   }
   .slide-block a {
     font-weight: 100;
     font-size: 0.9rem;
+    background-color: #ff1f73;
+    border: 1px solid #ff1f73;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: white;
+  }
+  .slide-block a:hover {
+    position: relative;
+    top: -5px;
+    padding-bottom: 5px;
+    text-decoration: none;
   }
   .view-on {
+    width: 100%;
     position: absolute;
-    bottom: 15px;
+    bottom: 12px;
+    left: 0;
+    text-align: center;
   }
   .hidden {
     border: none;
