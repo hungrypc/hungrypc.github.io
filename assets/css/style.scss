@@ -511,6 +511,10 @@ body {
         text-align: left;
         overflow: scroll;
     }
+
+    .project-wrap {
+        display: none;
+    }
     
     .techstack {
         display: block;
@@ -955,6 +959,7 @@ body {
         font-size: 0.9rem;
     }
 
+
     .info {
         width: 49%;
         display: inline-block;
@@ -1010,6 +1015,10 @@ body {
         border-radius: 6px;
         text-align: left;
         overflow: scroll;
+    }
+
+    .project-wrap {
+        display: none;
     }
 
     .techstack {
@@ -1500,6 +1509,10 @@ body {
         overflow: scroll;
     }
 
+    .project-wrap {
+        display: none;
+    }
+
     .techstack {
         display: block;
         margin: 2% 0 1% 0;
@@ -1654,6 +1667,7 @@ body {
         // height: 100vh;
         width: 100%;
         display: block;
+        // position: relative;
         // overflow-y: scroll;
         scroll-snap-type: y mandatory;
     }
@@ -1662,14 +1676,14 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 140px 0;
+        padding: 120px 0;
         scroll-snap-align: start;
         // height: 100vh;
         background-image: linear-gradient(180deg, #f5f7fa, #fff);
     }
 
     .page-section {
-        height: 938px;
+        height: 880px;
     }
 
     .last {
@@ -1690,7 +1704,7 @@ body {
         font-weight: 700;
         text-align: center;
         color: #0F2027;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 
 
@@ -1707,7 +1721,7 @@ body {
         justify-content: space-between;
         width: 100%;
         height: 49.9%;
-        padding: 35px 0;
+        // padding: 35px 0;
     }
 
     .profile-pic-container {
@@ -1774,7 +1788,7 @@ body {
         height: 100%;
         width: 30%;
         padding: 25px;
-        border: 1px solid #e1e1e1;
+        // border: 1px solid #e1e1e1;
         border-radius: 6px;
     }
 
@@ -1861,6 +1875,7 @@ body {
         border: solid 0.5px #e1e1e1;
         border-radius: 6px;
         text-align: left;
+        background-color: white;
         overflow: scroll;
     }
 
@@ -1909,21 +1924,9 @@ body {
         text-align: right;
     }
 
-    .slide-block {
-        margin-bottom: 6%;
-    }
-
-    .slide-block h5 {
-        font-weight: 700;
-        font-size: 1.3rem;
-        margin: 4% 0 2% 0;
-    }
-
-    .slide p {
-        font-weight: 100;
-        font-size: 1rem;
-        margin: 2% 0 1% 0;
-    }
+    // .slide-block {
+    //     margin-bottom: 6%;
+    // }
 
     .slide-block ul {
         margin: 2% 0 4% 0;
@@ -1980,14 +1983,6 @@ body {
     }
 
     .projects-container {
-        // margin-top: 20px;
-        // max-width: 100%;
-        // height: 600px;
-        // padding: 15px 35px;
-        // border: solid 0.5px #e1e1e1;
-        // border-radius: 6px;
-        // text-align: left;
-        // overflow: scroll;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1997,6 +1992,7 @@ body {
     }
 
     .project-wrap {
+        position: relative;
         display: block;
         width: 32%;
         height: 47%;
@@ -2011,6 +2007,66 @@ body {
         opacity: 0.8;
     }
 
+    .projects-mobile {
+        display: none;
+    }
+
+    .project-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        // transition: opacity 600ms, visibility 600ms;
+    }
+
+    .back {
+        width: 100%;
+        height: 100%; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255); 
+        z-index: 2; 
+        border-radius: 6px;
+    }
+
+    .project-info .slide-block {
+        z-index: 5;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .project-wrap:hover .project-info {
+        visibility: visible;
+        opacity: 1;
+        animation: fade 1s;
+    }
+
+    .project-info .slide-block {
+        padding: 15px;
+    }
+
+    .slide-block h5 {
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin: 4% 0 2% 0;
+    }
+
+    .slide-block p {
+        font-weight: 100;
+        font-size: 0.9rem;
+        margin: 2% 0 1% 0;
+    }
+
+    .slide-block a {
+        font-weight: 100;
+        font-size: 0.9rem; 
+    }
+
     .hidden {
         border: none;
     }
@@ -2019,7 +2075,7 @@ body {
         display: block;
         margin: 2% 0 1% 0;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-style: italic;
     }
 }
