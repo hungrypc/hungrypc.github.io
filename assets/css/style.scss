@@ -13,6 +13,35 @@ body {
     margin: 0;
 }
 
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    70% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
 
 .active-link {
     color: #08fdd8 !important;
@@ -48,10 +77,26 @@ body {
     white-space: normal;
     text-align: left;
     font-size: 48px;
+    
 }
 
 #hello div {
     margin-bottom: 10px;
+}
+
+.hello1 {
+    animation: moveInRight .7s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.hello2 {
+    animation: moveInRight .7s ease-out .1s;
+    animation-fill-mode: backwards;
+}
+
+.hello3 {
+    animation: moveInRight .7s ease-out .2s;
+    animation-fill-mode: backwards;
 }
 
 #goto-href {
@@ -70,6 +115,8 @@ body {
     text-align: center;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    animation: moveInBottom 0.5s ease-out .6s;
+    animation-fill-mode: backwards;
 }
 
 .intro-page a {
@@ -275,7 +322,7 @@ body {
 
 .contact-block a {
     color: #fff;
-    transition: all .3s;
+    transition: all .2s;
 }
 
 .contact-block a:hover {
