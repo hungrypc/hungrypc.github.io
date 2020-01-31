@@ -83,7 +83,6 @@ body {
 
 #goto-btn:hover {
     background-color: #08fdd8;
-    border-color: #08fdd8;
     color: #191919;
 }
 
@@ -275,13 +274,13 @@ body {
 }
 
 .contact-block a {
-    // color: rgb(176, 176, 176);
     color: #fff;
+    transition: all .3s;
 }
 
 .contact-block a:hover {
     color: #08fdd8;
-    transition: color 0.5s;
+    transform: scale(1.2);
 }
 
 .skills-block {
@@ -547,16 +546,18 @@ body {
 .view-on a {
     font-weight: 100;
     font-size: 0.9rem; 
-    background-color: #08fdd8;
+    // background-color: #08fdd8;
     border: 1px solid #08fdd8;
     padding: 5px 10px;
     border-radius: 6px;
-    color: #222222;
+    color: #08fdd8;
+    text-decoration: none;
+    transition: all .3s;
 }
 
 .view-on a:hover {
-    padding-bottom: 5px;
-    text-decoration: none;
+    background-color: #08fdd8;
+    color: #222222;
 }
 
 .view-on {
