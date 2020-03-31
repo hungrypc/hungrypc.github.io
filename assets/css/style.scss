@@ -41,7 +41,9 @@ body {
     }
 }
 
-
+.noscroll::-webkit-scrollbar {
+	display: none; /* Safari and Chrome */
+}
 
 .active-link {
     color: #08fdd8 !important;
@@ -434,7 +436,7 @@ body {
     max-width: 100%;
     display: block;
     margin: 0 10px; 
-    overflow: scroll;
+    // overflow: scroll;
 }
 
 .tab-content p {
