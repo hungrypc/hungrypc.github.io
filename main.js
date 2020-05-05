@@ -1,7 +1,8 @@
 $(document).ready(function () {
+  // $('.ui.basic.modal').modal('show');
 
   $(document).on('scroll', function () {
-    if ($(document).scrollTop() >= $('.page-section').outerHeight()) {
+    if ($(document).scrollTop() >= $('.page-section').outerHeight() - 80) {
       $('.navigation').addClass('fixed')
     } else {
       $('.navigation').removeClass('fixed')
